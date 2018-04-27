@@ -14,6 +14,11 @@
 
 def speak_to_grandma(convo)
   if convo != convo.upcase
+    'HUH? SPEAK UP, SONNY!'
+  elsif convo == 'I LOVE YOU GRANDMA!'
+    'I LOVE YOU TOO PUMPKIN!'
+  else
+    'NO, NO'
     
     
 end
